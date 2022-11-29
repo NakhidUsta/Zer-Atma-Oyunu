@@ -1,0 +1,83 @@
+body{
+    background-color: coral;
+}
+
+div{
+    border: 2px solid coral ;
+} 
+.skorKapsayici{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px gainsboro;
+
+}
+.skorKapsayici div{
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin: 25px;
+    
+}
+.skorBir{
+    background-color: crimson;
+}
+.skorIki {
+    background-color: cyan;
+}
+.skorKapsayici div span:nth-child(1) {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+text-decoration: underline;
+font-weight: bold;
+}
+ div span:nth-child(4) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    margin-top: 100px;
+    display: block;
+    font-weight: bold;
+    }
+
+    .oyunAlani{
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        height: auto;
+        margin-top: 100;
+    }
+
+    .oyunAlani div {
+        width: 250px;
+        height: 350px;
+        text-align: center;
+    }
+    .oyuncuBir{
+        background-color: crimson;
+    }
+    .oyuncuIki{
+        background-color: cyan;
+    }
+
+img{
+    width: 150px;
+    height: 150px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: white;
+}
+.myName{
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 300px;
+    text-align: center;
+    font-size: 30px;
+}
